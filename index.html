@@ -1,0 +1,55 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://free02.123host.vn:2222/CMD_FILE_MANAGER?path=/domains/dstat.vinaddns.com/public_html/save.php&X-DirectAdmin-Session-ID=T6DFE4CHHTAKEBDUFBSCNTSZ6Z6O5NGJWMDWFBPGC2IIVWV3PTROROCB3T7SRNAB&noredirect=true
+Subject: =?utf-8?Q?M=C4=82=C2=A3=20=C3=84=E2=80=98=C4=82=C2=A3=20l=C3=86=C2=B0u=20?=
+ =?utf-8?Q?tr=C3=A1=C2=BB=C2=AF?=
+Date: Fri, 20 Oct 2023 06:31:17 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--pTsGI7wMqMpX6jc0gElzPFvUaqfUkMlH36s5LQByJc----"
+
+
+------MultipartBoundary--pTsGI7wMqMpX6jc0gElzPFvUaqfUkMlH36s5LQByJc----
+Content-Type: text/html
+Content-ID: <frame-61E0AAB27FCA4C796DF010405380F124@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://free02.123host.vn:2222/CMD_FILE_MANAGER?path=/domains/dstat.vinaddns.com/public_html/save.php&X-DirectAdmin-Session-ID=T6DFE4CHHTAKEBDUFBSCNTSZ6Z6O5NGJWMDWFBPGC2IIVWV3PTROROCB3T7SRNAB&noredirect=true
+
+<!--?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Lấy mã từ biểu mẫu
+    $code = $_POST["code"];
+    
+    // Tạo một tên tệp ngẫu nhiên để lưu trữ mã trong thư mục "code"
+    $filename = 'code/' . uniqid() . '';
+    
+    // Ghi mã vào tệp
+    file_put_contents($filename, $code);
+    
+    // Tạo đường dẫn đến tệp mã
+    $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $filename;
+    
+    // In đường link và tiêu đề ra trang web
+    echo '<!DOCTYPE html--><html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1258"><link rel="stylesheet" type="text/css" href="cid:css-70f6d227-5896-468e-b536-c485ae553282@mhtml.blink" /></head><body>';
+    echo '';
+    echo '';
+    echo '<title>Mã đã lưu trữ</title>';
+    echo '';
+    echo '';
+    echo '';
+    echo '<h1>Mã đã lưu trữ</h1>';
+    echo '<input type="text" value="' . $url . '" readonly="">';
+    echo '';
+    echo '';
+}
+?&gt;
+</body></html>
+------MultipartBoundary--pTsGI7wMqMpX6jc0gElzPFvUaqfUkMlH36s5LQByJc----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-70f6d227-5896-468e-b536-c485ae553282@mhtml.blink
+
+@charset "windows-1258";
+
+
+------MultipartBoundary--pTsGI7wMqMpX6jc0gElzPFvUaqfUkMlH36s5LQByJc------
